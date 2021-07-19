@@ -1,0 +1,39 @@
+#root{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2% 0 0 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #ED7E00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    height: 90vh;
+}
+
+@media only screen and (max-width: 600px){
+    #root{
+        font-size: 15px;
+    }
+}
